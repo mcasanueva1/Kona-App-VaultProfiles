@@ -145,6 +145,14 @@
     "metadata": {
       "products": [
         {
+          "name": "Grunenthal_Latam_Adorlan",
+          "value": "Grunenthal_Latam_Adorlan"
+        },
+        {
+          "name": "Grunenthal_BR_Adorlan",
+          "value": "Grunenthal_BR_Adorlan"
+        },
+        {
           "name": "iDC_Kona",
           "value": "iDC_Kona",
           "default": "true"
