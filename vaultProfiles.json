@@ -166,6 +166,10 @@
           "default": "true"
         },
         {
+          "name": "iDC_Kona",
+          "value": "iDC_Sales"
+        },
+        {
           "name": "Sanofi_GLB_DupixentAsthma",
           "value": "Sanofi_GLB_DupixentAsthma"
         },
