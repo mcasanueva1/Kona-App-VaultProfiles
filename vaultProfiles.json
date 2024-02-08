@@ -154,6 +154,10 @@
           "value": "Sanofi_GLB_DupixentAsthma"
         },
         {
+          "name": "Sanofi_GLB_Enjaymo",
+          "value": "Sanofi_GLB_Enjaymo"
+        },
+        {
           "name": "Sanofi_FR_DupixentAsthma",
           "value": "Sanofi_FR_DupixentAsthma"
         }
