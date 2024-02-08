@@ -1,0 +1,648 @@
+[
+  {
+    "name": "iDC",
+    "fields": [
+      {
+        "type": "common",
+        "name": "external_id__v",
+        "token": {
+          "forPresentation": "__presentationName__",
+          "forSlide": "__zipName__"
+        }
+      },
+      {
+        "type": "common",
+        "name": "Type",
+        "value": {
+          "forPresentation": "Presentation",
+          "forSlide": "Slide"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "lifecycle__v",
+        "value": {
+          "forPresentation": "Binder Lifecycle",
+          "forSlide": "CRM Content Lifecycle"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "name__v",
+        "token": {
+          "forPresentation": "{{presentationName}}",
+          "forSlide": "__zipNameWithoutExtension__"
+        }
+      },
+      {
+        "type": "presentation",
+        "name": "pres.title__v",
+        "token": "{{presentationName}}"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.clm_content__v",
+        "value": "Yes",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.engage_content__v",
+        "value": "No",
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "Presentation Link",
+        "token": "__presentationName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.filename",
+        "token": "__zipName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.title__v",
+        "token": "__slideName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.clm_content__v",
+        "value": "Yes",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.engage_content__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_media_type__v",
+        "value": "HTML",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_disable_actions__v",
+        "token": "__disableActions__",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.ios_resolution__v",
+        "value": "Default For Device",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_shared_resource__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.related_shared_resource__v",
+        "token": "__sharedResourceZipName__",
+        "canBeGrouped": true,
+        "fixedValue": true
+      }
+    ],
+    "metadata": {
+      "products": [
+        {
+          "name": "iDC_Kona",
+          "value": "iDC_Kona",
+          "default": "true"
+        },
+        {
+          "name": "Sanofi_GLB_DupixentAsthma",
+          "value": "Sanofi_GLB_DupixentAsthma"
+        },
+        {
+          "name": "Sanofi_FR_DupixentAsthma",
+          "value": "Sanofi_FR_DupixentAsthma"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Global",
+          "value": "Global",
+          "default": "true"
+        }
+      ]
+    },
+    "credentials": {
+      "user": "idc@vv-agency.com",
+      "subDomain": "vv-agency-idc.veevavault.com",
+      "apiVersion": "v22.3"
+    }
+  },
+  {
+    "name": "NHS",
+    "fields": [
+      {
+        "type": "common",
+        "name": "external_id__v",
+        "token": {
+          "forPresentation": "__presentationName__",
+          "forSlide": "__zipName__"
+        }
+      },
+      {
+        "type": "common",
+        "name": "Type",
+        "value": {
+          "forPresentation": "Presentation",
+          "forSlide": "Slide"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "lifecycle__v",
+        "value": {
+          "forPresentation": "Binder Lifecycle",
+          "forSlide": "CRM Content Lifecycle"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "name__v",
+        "token": {
+          "forPresentation": "{{presentationName}}",
+          "forSlide": "__zipNameWithoutExtension__"
+        }
+      },
+      {
+        "type": "presentation",
+        "name": "pres.title__v",
+        "token": "{{presentationName}}"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_product__v.id",
+        "token": "__productId__",
+        "vaultField": "crm_product__v.id"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_detail_group__v.id",
+        "token": "__detailGroupId__",
+        "vaultField": "crm_detail_group__v.id"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.clm_content__v",
+        "value": "Yes",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.engage_content__v",
+        "value": "No",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_start_date__v",
+        "token": "__startDate__",
+        "vaultField": "crm_start_date__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_end_date__v",
+        "token": "__endDate__",
+        "vaultField": "crm_end_date__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_presentation_id__v",
+        "token": "__presentationName__",
+        "vaultField": "crm_presentation_id__v"
+      }, 
+      {
+        "type": "presentation",
+        "name": "pres.crm_language__v",
+        "token": "__languageName__",
+        "vaultField": "crm_language__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.agency__c",
+        "value": "",
+        "vaultField": "agency__c"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.business_unit__c",
+        "value": "NHS",
+        "vaultField": "business_unit__c"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_hidden__c",
+        "value": "",
+        "vaultField": "crm_hidden__c"
+      }, 
+      {
+        "type": "presentation",
+        "name": "pres.crm_survey__v.id",
+        "value": "",
+        "vaultField": "crm_survey__v.id"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_training__v",
+        "value": "No",
+        "vaultField": "crm_training__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_enable_survey_overlay__v",
+        "value": "Yes",
+        "vaultField": "crm_enable_survey_overlay__v"
+      },                                     
+      {
+        "type": "slide",
+        "name": "Presentation Link",
+        "token": "__presentationName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.filename",
+        "token": "__zipName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.title__v",
+        "token": "__slideName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_product__v.id",
+        "token": "__productId__",
+        "vaultField": "crm_product__v.id",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_detail_group__v.id",
+        "token": "__detailGroupId__",
+        "vaultField": "crm_detail_group__v.id"
+      },
+      {
+        "type": "slide",
+        "name": "slide.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.clm_content__v",
+        "value": "Yes",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.engage_content__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_media_type__v",
+        "value": "HTML",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_disable_actions__v",
+        "token": "__disableActions__",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.ios_resolution__v",
+        "value": "Default For Device",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_shared_resource__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.related_shared_resource__v",
+        "token": "__sharedResourceZipName__",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_language__v",
+        "token": "__languageName__",
+        "vaultField": "crm_language__v"
+      },
+      {
+        "type": "slide",
+        "name": "slide.agency__c",
+        "value": "",
+        "vaultField": "agency__c"
+      },
+      {
+        "type": "slide",
+        "name": "slide.business_unit__c",
+        "value": "NHS",
+        "vaultField": "business_unit__c"
+      }
+    ],
+    "metadata": {
+      "products": [
+        {
+          "name": "name for 0CB000000000R01",
+          "value": "0CB000000000R01",
+          "default": "true"
+        },
+        {
+          "name": "Compleat",
+          "value": "0CB000000000R02"
+        }
+      ],
+      "detailGroups": [
+        {
+          "name": "name for 0CG00000000Y002",
+          "value": "0CG00000000Y002",
+          "default": "true"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Global",
+          "value": "All",
+          "default": "true"
+        },
+        {
+          "name": "Canada",
+          "value": "CA"
+        },      
+        {
+          "name": "France",
+          "value": "FR"
+        },
+        {
+          "name": "United Kingdom",
+          "value": "UK"
+        },
+        {
+          "name": "United States",
+          "value": "US"
+        },
+        {
+          "name": "Switzerland",
+          "value": "CH"
+        }
+      ],
+      "languages": [
+        {
+          "name": "English",
+          "value": "English",
+          "default": "true"
+        },        
+        {
+          "name": "French",
+          "value": "French"
+        },
+        {
+          "name": "German",
+          "value": "German"
+        }
+      ]
+    },
+    "credentials": {
+      "user": "ss",
+      "subDomain": "xxxxxx.veevavault.com",
+      "apiVersion": "v22.3"
+    }
+  },
+  {
+    "name": "Sanofi",
+    "fields": [
+      {
+        "type": "common",
+        "name": "external_id__v",
+        "token": {
+          "forPresentation": "__presentationName__",
+          "forSlide": "__zipName__"
+        }
+      },
+      {
+        "type": "common",
+        "name": "Type",
+        "value": {
+          "forPresentation": "Presentation",
+          "forSlide": "Slide"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "lifecycle__v",
+        "value": {
+          "forPresentation": "Binder Lifecycle",
+          "forSlide": "CRM Content Lifecycle"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "name__v",
+        "token": {
+          "forPresentation": "{{presentationName}}",
+          "forSlide": "__zipNameWithoutExtension__"
+        }
+      },
+      {
+        "type": "presentation",
+        "name": "pres.title__v",
+        "token": "{{presentationName}}"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.clm_content__v",
+        "value": "Yes",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.engage_content__v",
+        "value": "No",
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "Presentation Link",
+        "token": "__presentationName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.filename",
+        "token": "__zipName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.title__v",
+        "token": "__slideName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.clm_content__v",
+        "value": "Yes",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.engage_content__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_media_type__v",
+        "value": "HTML",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_disable_actions__v",
+        "token": "__disableActions__",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.ios_resolution__v",
+        "value": "Default For Device",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_shared_resource__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.related_shared_resource__v",
+        "token": "__sharedResourceZipName__",
+        "canBeGrouped": true,
+        "fixedValue": true
+      }
+    ],
+    "metadata": {
+      "products": [
+        {
+          "name": "GLB_DupixentAsthma",
+          "value": "GLB_DupixentAsthma"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Global",
+          "value": "Global",
+          "default": "true"
+        },
+        {
+          "name": "France",
+          "value": "FR"
+        },
+        {
+          "name": "Japan",
+          "value": "JP"
+        }
+      ]
+    },
+    "credentials": {
+      "user": "ss",
+      "subDomain": "xxxxxx.veevavault.com",
+      "apiVersion": "v22.3"
+    }
+  }
+]
