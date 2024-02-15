@@ -78,7 +78,7 @@
       {
         "type": "slide",
         "name": "slide.title__v",
-        "token": "__slideName__"
+        "token": "{{slideName}}"
       },
       {
         "type": "slide",
@@ -341,7 +341,7 @@
       {
         "type": "slide",
         "name": "slide.title__v",
-        "token": "__slideName__"
+        "token": "{{slideName}}"
       },
       {
         "type": "slide",
@@ -576,7 +576,7 @@
       {
         "type": "slide",
         "name": "slide.title__v",
-        "token": "__slideName__"
+        "token": "{{slideName}}"
       },
       {
         "type": "slide",
