@@ -492,8 +492,8 @@
       ]
     },
     "credentials": {
-      "user": "ss",
-      "subDomain": "xxxxxx.veevavault.com",
+      "user": "fernando.garciaguerra@nestle.com",
+      "subDomain": "nestle-mcr.veevavault.com",
       "apiVersion": "v22.3"
     }
   },
@@ -660,6 +660,178 @@
         {
           "name": "Japan",
           "value": "JP"
+        }
+      ]
+    },
+    "credentials": {
+      "user": "ss",
+      "subDomain": "xxxxxx.veevavault.com",
+      "apiVersion": "v22.3"
+    }
+  },
+  {
+    "name": "Grunenthal",
+    "fields": [
+      {
+        "type": "common",
+        "name": "external_id__v",
+        "token": {
+          "forPresentation": "__presentationName__",
+          "forSlide": "__zipName__"
+        }
+      },
+      {
+        "type": "common",
+        "name": "Type",
+        "value": {
+          "forPresentation": "Presentation",
+          "forSlide": "Slide"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "lifecycle__v",
+        "value": {
+          "forPresentation": "Binder Lifecycle",
+          "forSlide": "CRM Content Lifecycle"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "name__v",
+        "token": {
+          "forPresentation": "{{presentationName}}",
+          "forSlide": "__zipNameWithoutExtension__"
+        }
+      },
+      {
+        "type": "presentation",
+        "name": "pres.title__v",
+        "token": "{{presentationName}}"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.clm_content__v",
+        "value": "Yes",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.engage_content__v",
+        "value": "No",
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "Presentation Link",
+        "token": "__presentationName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.filename",
+        "token": "__zipName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.title__v",
+        "token": "{{slideName}}"
+      },
+      {
+        "type": "slide",
+        "name": "slide.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.clm_content__v",
+        "value": "Yes",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.engage_content__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_media_type__v",
+        "value": "HTML",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_disable_actions__v",
+        "token": "__disableActions__",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.ios_resolution__v",
+        "value": "Default For Device",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_shared_resource__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.related_shared_resource__v",
+        "token": "__sharedResourceZipName__",
+        "canBeGrouped": true,
+        "fixedValue": true
+      }
+    ],
+    "metadata": {
+      "products": [
+        {
+          "name": "Adorlan",
+          "value": "Adorlan"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Brazil",
+          "value": "Brazil",
+          "default": "true"
+        },
+        {
+          "name": "Ecuador",
+          "value": "Ecuador"
+        },
+        {
+          "name": "Colombia",
+          "value": "Colombia"
         }
       ]
     },
