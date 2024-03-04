@@ -157,12 +157,16 @@
           "value": "Grunenthal_Latam_Palexis"
         },
         {
+          "name": "Grunenthal_PE_Palexis",
+          "value": "Grunenthal_PE_Palexis"
+        },
+        {
           "name": "Grunenthal_Latam_Versatis",
           "value": "Grunenthal_Latam_Versatis"
         },
         {
-          "name": "Grunenthal_PE_Palexis",
-          "value": "Grunenthal_PE_Palexis"
+          "name": "Grunenthal_PE_Versatis",
+          "value": "Grunenthal_PE_Versatis"
         },
         {
           "name": "iDC_Kona",
