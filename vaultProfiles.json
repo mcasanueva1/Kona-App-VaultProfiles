@@ -157,12 +157,20 @@
           "value": "Grunenthal_Latam_Palexis"
         },
         {
+          "name": "Grunenthal_CL_Palexis",
+          "value": "Grunenthal_CL_Palexis"
+        },
+        {
           "name": "Grunenthal_PE_Palexis",
           "value": "Grunenthal_PE_Palexis"
         },
         {
           "name": "Grunenthal_Latam_Versatis",
           "value": "Grunenthal_Latam_Versatis"
+        },
+        {
+          "name": "Grunenthal_CL_Versatis",
+          "value": "Grunenthal_CL_Versatis"
         },
         {
           "name": "Grunenthal_PE_Versatis",
@@ -829,6 +837,14 @@
         {
           "name": "Adorlan",
           "value": "Adorlan"
+        },
+        {
+          "name": "Palexis",
+          "value": "Palexis"
+        },
+        {
+          "name": "Versatis",
+          "value": "Versatis"
         }
       ],
       "countries": [
@@ -838,12 +854,20 @@
           "default": "true"
         },
         {
-          "name": "Ecuador",
-          "value": "Ecuador"
+          "name": "Chile",
+          "value": "Chile"
         },
         {
           "name": "Colombia",
           "value": "Colombia"
+        },
+        {
+          "name": "Ecuador",
+          "value": "Ecuador"
+        },
+        {
+          "name": "Peru",
+          "value": "Peru"
         }
       ]
     },
