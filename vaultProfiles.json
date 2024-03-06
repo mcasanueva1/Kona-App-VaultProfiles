@@ -308,9 +308,9 @@
       }, 
       {
         "type": "presentation",
-        "name": "pres.crm_language__v",
+        "name": "pres.language__v",
         "token": "__languageName__",
-        "vaultField": "crm_language__v"
+        "vaultField": "language__v"
       },
       {
         "type": "presentation",
@@ -326,9 +326,9 @@
       },
       {
         "type": "presentation",
-        "name": "pres.crm_hidden__c",
+        "name": "pres.crm_hidden__v",
         "value": "",
-        "vaultField": "crm_hidden__c"
+        "vaultField": "crm_hidden__v"
       }, 
       {
         "type": "presentation",
@@ -432,9 +432,9 @@
       },
       {
         "type": "slide",
-        "name": "slide.crm_language__v",
+        "name": "slide.language__v",
         "token": "__languageName__",
-        "vaultField": "crm_language__v"
+        "vaultField": "language__v"
       },
       {
         "type": "slide",
