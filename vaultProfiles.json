@@ -475,24 +475,28 @@
           "default": "true"
         },
         {
+          "name": "Australia",
+          "value": "Australia"
+        },
+        {
           "name": "Canada",
-          "value": "CA"
-        },      
+          "value": "Canada"
+        },   
         {
           "name": "France",
-          "value": "FR"
+          "value": "France"
         },
         {
           "name": "United Kingdom",
-          "value": "UK"
+          "value": "United Kingdom"
         },
         {
           "name": "United States",
-          "value": "US"
+          "value": "United States of America"
         },
         {
           "name": "Switzerland",
-          "value": "CH"
+          "value": "Switzerland"
         }
       ],
       "languages": [
