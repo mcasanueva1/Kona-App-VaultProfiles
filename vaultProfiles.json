@@ -157,6 +157,10 @@
           "value": "Grunenthal_Latam_Palexis"
         },
         {
+          "name": "Grunenthal_CAM_Palexis",
+          "value": "Grunenthal_CAM_Palexis"
+        },
+        {
           "name": "Grunenthal_CL_Palexis",
           "value": "Grunenthal_CL_Palexis"
         },
@@ -860,6 +864,10 @@
           "name": "Brazil",
           "value": "Brazil",
           "default": "true"
+        },
+        {
+          "name": "CAM",
+          "value": "CAM"
         },
         {
           "name": "Chile",
