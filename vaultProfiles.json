@@ -679,8 +679,20 @@
     "metadata": {
       "products": [
         {
-          "name": "GLB_DupixentAsthma",
-          "value": "GLB_DupixentAsthma"
+          "name": "Alprolix",
+          "value": "Alprolix"
+        },
+        {
+          "name": "Dupixent",
+          "value": "Dupixent"
+        },
+        {
+          "name": "Enjaymo",
+          "value": "Enjaymo"
+        },
+        {
+          "name": "Nexviadyme",
+          "value": "Nexviadyme"
         }
       ],
       "countries": [
