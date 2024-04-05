@@ -589,6 +589,12 @@
       },
       {
         "type": "presentation",
+        "name": "pres.language__v",
+        "token": "__languageName__",
+        "vaultField": "language__v"
+      },
+      {
+        "type": "presentation",
         "name": "pres.clm_content__v",
         "value": "Yes",
         "fixedValue": true
@@ -627,6 +633,12 @@
         "token": "__countryName__",
         "vaultField": "country__v.name__v",
         "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.language__v",
+        "token": "__languageName__",
+        "vaultField": "language__v"
       },
       {
         "type": "slide",
@@ -709,11 +721,33 @@
           "name": "Japan",
           "value": "JP"
         }
-      ]
+      ],
+      "languages": [
+        {
+          "name": "English",
+          "value": "English",
+          "default": "true"
+        },        
+        {
+          "name": "French",
+          "value": "French"
+        },
+        {
+          "name": "German",
+          "value": "German"
+        },
+        {
+          "name": "Italian",
+          "value": "Italian"
+        },
+        {
+          "name": "Japanese",
+          "value": "Japanese"
+        }
     },
     "credentials": {
       "user": "ss",
-      "subDomain": "xxxxxx.veevavault.com",
+      "subDomain": "sanofi-4mpromomats.veevavault.com",
       "apiVersion": "v22.3"
     }
   },
