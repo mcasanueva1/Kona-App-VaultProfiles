@@ -606,6 +606,12 @@
         "fixedValue": true
       },
       {
+        "type": "presentation",
+        "name": "pres.firewall__c",
+        "value": "No Restriction",
+        "canBeGrouped": true
+      },
+      {
         "type": "slide",
         "name": "Presentation Link",
         "token": "__presentationName__"
@@ -686,6 +692,12 @@
         "token": "__sharedResourceZipName__",
         "canBeGrouped": true,
         "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.firewall__c",
+        "value": "No Restriction",
+        "canBeGrouped": true
       }
     ],
     "metadata": {
