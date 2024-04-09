@@ -607,7 +607,7 @@
       },
       {
         "type": "presentation",
-        "name": "pres.firewall__c",
+        "name": "pres.firewall__c.name__v",
         "value": "No Restriction",
         "canBeGrouped": true
       },
@@ -695,7 +695,7 @@
       },
       {
         "type": "slide",
-        "name": "slide.firewall__c",
+        "name": "slide.firewall__c.name__v",
         "value": "No Restriction",
         "canBeGrouped": true
       }
@@ -727,11 +727,19 @@
         },
         {
           "name": "France",
-          "value": "FR"
+          "value": "France"
+        },
+        {
+          "name": "Germany",
+          "value": "Germany"
+        },
+        {
+          "name": "Italy",
+          "value": "Italy"
         },
         {
           "name": "Japan",
-          "value": "JP"
+          "value": "Japan"
         }
       ],
       "languages": [
