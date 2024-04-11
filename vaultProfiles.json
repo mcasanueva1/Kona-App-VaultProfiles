@@ -173,8 +173,24 @@
           "value": "Grunenthal_Latam_Versatis"
         },
         {
+          "name": "Grunenthal_BR_Versatis",
+          "value": "Grunenthal_BR_Versatis"
+        },
+        {
+          "name": "Grunenthal_CAM_Versatis",
+          "value": "Grunenthal_CAM_Versatis"
+        },
+        {
           "name": "Grunenthal_CL_Versatis",
           "value": "Grunenthal_CL_Versatis"
+        },
+        {
+          "name": "Grunenthal_EC_Versatis",
+          "value": "Grunenthal_EC_Versatis"
+        },
+        {
+          "name": "Grunenthal_MX_Versatis",
+          "value": "Grunenthal_MX_Versatis"
         },
         {
           "name": "Grunenthal_PE_Versatis",
@@ -951,6 +967,10 @@
         {
           "name": "Ecuador",
           "value": "Ecuador"
+        },
+        {
+          "name": "Mexico",
+          "value": "Mexico"
         },
         {
           "name": "Peru",
