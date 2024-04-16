@@ -228,6 +228,10 @@
         {
           "name": "Sanofi_FR_DupixentAsthma",
           "value": "Sanofi_FR_DupixentAsthma"
+        },
+        {
+          "name": "Sanofi_GLB_Alprolix",
+          "value": "Sanofi_GLB_Alprolix"
         }
       ],
       "countries": [
