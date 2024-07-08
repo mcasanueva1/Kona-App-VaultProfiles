@@ -244,6 +244,10 @@
         {
           "name": "Sanofi_GLB_Alprolix",
           "value": "Sanofi_GLB_Alprolix"
+        },
+        {
+          "name": "Sanofi_US_DupixentEoE",
+          "value": "Sanofi_US_DupixentEoE"
         }
       ],
       "countries": [
