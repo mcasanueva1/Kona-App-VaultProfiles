@@ -222,6 +222,10 @@
           "value": "Sanofi_GLB_DupixentAsthma"
         },
         {
+          "name": "SA_GLB_Dupixent_CRSwNP",
+          "value": "SA_GLB_Dupixent_CRSwNP"
+        },
+        {
           "name": "Sanofi_GLB_Enjaymo",
           "value": "Sanofi_GLB_Enjaymo"
         },
