@@ -250,6 +250,10 @@
           "value": "Sanofi_GLB_Alprolix"
         },
         {
+          "name": "Sanofi_CA_Alprolix",
+          "value": "Sanofi_CA_Alprolix"
+        },
+        {
           "name": "Sanofi_US_DupixentEoE",
           "value": "Sanofi_US_DupixentEoE"
         }
