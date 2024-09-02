@@ -218,6 +218,22 @@
           "value": "NHS_CA_PeptamenAF1.2"
         },
         {
+          "name": "Sanofi_CA_Alprolix",
+          "value": "Sanofi_CA_Alprolix"
+        },
+        {
+          "name": "Sanofi_DE_Enjaymo",
+          "value": "Sanofi_DE_Enjaymo"
+        },
+        {
+          "name": "Sanofi_FR_DupixentAsthma",
+          "value": "Sanofi_FR_DupixentAsthma"
+        },
+        {
+          "name": "Sanofi_GLB_Alprolix",
+          "value": "Sanofi_GLB_Alprolix"
+        },
+        {
           "name": "Sanofi_GLB_DupixentAsthma",
           "value": "Sanofi_GLB_DupixentAsthma"
         },
@@ -230,28 +246,16 @@
           "value": "Sanofi_GLB_Enjaymo"
         },
         {
-          "name": "Sanofi_JP_DupixentAD-NP",
-          "value": "Sanofi_JP_DupixentAD-NP"
-        },
-        {
-          "name": "Sanofi_DE_Enjaymo",
-          "value": "Sanofi_DE_Enjaymo"
-        },
-        {
           "name": "Sanofi_IL_Enjaymo",
           "value": "Sanofi_IL_Enjaymo"
         },
         {
-          "name": "Sanofi_FR_DupixentAsthma",
-          "value": "Sanofi_FR_DupixentAsthma"
+          "name": "Sanofi_JP_DupixentAD-NP",
+          "value": "Sanofi_JP_DupixentAD-NP"
         },
         {
-          "name": "Sanofi_GLB_Alprolix",
-          "value": "Sanofi_GLB_Alprolix"
-        },
-        {
-          "name": "Sanofi_CA_Alprolix",
-          "value": "Sanofi_CA_Alprolix"
+          "name": "Sanofi_KR_Alprolix",
+          "value": "Sanofi_KR_Alprolix"
         },
         {
           "name": "Sanofi_US_DupixentEoE",
