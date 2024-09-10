@@ -242,6 +242,10 @@
           "value": "Sanofi_GLB_DupixentCRSwNP"
         },
         {
+          "name": "Sanofi_GLB_DupixentCOPD",
+          "value": "Sanofi_GLB_DupixentCOPD"
+        },
+        {
           "name": "Sanofi_GLB_Enjaymo",
           "value": "Sanofi_GLB_Enjaymo"
         },
