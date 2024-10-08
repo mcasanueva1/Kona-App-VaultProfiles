@@ -785,9 +785,8 @@
       ],
       "countries": [
         {
-          "name": "Global",
-          "value": "Global",
-          "default": "true"
+          "name": "Canada",
+          "value": "Canada"
         },
         {
           "name": "France",
@@ -798,6 +797,15 @@
           "value": "Germany"
         },
         {
+          "name": "Global",
+          "value": "Global",
+          "default": "true"
+        },
+        {
+          "name": "Israel",
+          "value": "Israel"
+        },
+        {
           "name": "Italy",
           "value": "Italy"
         },
@@ -806,16 +814,12 @@
           "value": "Japan"
         },
         {
-          "name": "Israel",
-          "value": "Israel"
+          "name": "Korea",
+          "value": "Korea"
         },
         {
           "name": "United States",
           "value": "United States"
-        },
-        {
-          "name": "Korea",
-          "value": "Korea"
         }
       ],
       "languages": [
