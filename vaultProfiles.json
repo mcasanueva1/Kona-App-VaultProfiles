@@ -278,6 +278,10 @@
           "value": "Sanofi_JP_DupixentAD-NP"
         },
         {
+          "name": "Sanofi_JP_DupixentCRSwNP",
+          "value": "Sanofi_JP_DupixentCRSwNP"
+        },
+        {
           "name": "Sanofi_KR_Alprolix",
           "value": "Sanofi_KR_Alprolix"
         },
