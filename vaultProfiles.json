@@ -294,6 +294,14 @@
           "value": "Sanofi_US_DupixentAD-PN-Derm"
         },
         {
+          "name": "Sanofi_US_DupixentCRSwNP",
+          "value": "Sanofi_US_DupixentCRSwNP"
+        },
+        {
+          "name": "Sanofi_US_DupixentAllergy",
+          "value": "Sanofi_US_DupixentAllergy"
+        },
+        {
           "name": "NHS_UK_CompleatHP15",
           "value": "NHS_UK_CompleatHP15"
         }
