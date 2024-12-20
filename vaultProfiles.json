@@ -704,6 +704,12 @@
         "canBeGrouped": true
       },
       {
+        "type": "presentation",
+        "name": "pres.message_tagging_required__c",
+        "value": "No",
+        "fixedValue": true
+      },
+      {
         "type": "slide",
         "name": "Presentation Link",
         "token": "__presentationName__"
@@ -790,6 +796,12 @@
         "name": "slide.firewall__c.name__v",
         "value": "No Restriction",
         "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.message_tagging_required__c",
+        "value": "No",
+        "fixedValue": true
       }
     ],
     "metadata": {
