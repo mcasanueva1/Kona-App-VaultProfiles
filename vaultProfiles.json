@@ -302,6 +302,10 @@
           "value": "Sanofi_US_DupixentAllergy"
         },
         {
+          "name": "Sanofi_DE_DupixentCOPD",
+          "value": "Sanofi_DE_DupixentCOPD"
+        },
+        {
           "name": "Sanofi_IT_DupixentCRSwNP",
           "value": "Sanofi_IT_DupixentCRSwNP"
         },
