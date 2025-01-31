@@ -821,20 +821,18 @@
     "metadata": {
       "products": [
         {
-          "name": "Alprolix",
-          "value": "Alprolix"
+          "name": "DUPIXENT",
+          "value": "DUPIXENT"
+        }
+      ],
+      "indication": [
+        {
+          "name": "CRSwNP",
+          "value": "CRSwNP"
         },
         {
-          "name": "Dupixent",
-          "value": "Dupixent"
-        },
-        {
-          "name": "Enjaymo",
-          "value": "Enjaymo"
-        },
-        {
-          "name": "Nexviadyme",
-          "value": "Nexviadyme"
+          "name": "Eosinophilic Esophagitis",
+          "value": "Eosinophilic Esophagitis"
         }
       ],
       "countries": [
@@ -872,6 +870,10 @@
           "value": "Korea"
         },
         {
+          "name": "United Kingdom",
+          "value": "United Kingdom"
+        },
+        {
           "name": "United States",
           "value": "United States"
         }
@@ -901,8 +903,8 @@
       ]
     },
     "credentials": {
-      "user": "F0026997@sanofi.com",
-      "subDomain": "sanofi-4mpromomats.veevavault.com",
+      "user": "fernando.garciaguerra@regeneron.com",
+      "subDomain": "regeneron-mc.veevavault.com",
       "apiVersion": "v22.3"
     }
   },
