@@ -685,7 +685,8 @@
         "type": "presentation",
         "name": "pres.indication__c.name__v",
         "token": "__indicationName__",
-        "vaultField": "indication__c.name__v"
+        "vaultField": "indication__c.name__v",
+        "canBeGrouped": true
       },
       {
         "type": "presentation",
@@ -743,6 +744,13 @@
         "name": "slide.product__v.name__v",
         "token": "__productName__",
         "vaultField": "product__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.indication__c.name__v",
+        "token": "__indicationName__",
+        "vaultField": "indication__c.name__v",
         "canBeGrouped": true
       },
       {
@@ -1365,8 +1373,8 @@
       ]
     },
     "credentials": {
-      "user": "ss",
-      "subDomain": "xxxxxx.veevavault.com",
+      "user": "fernando.garciaguerra@grunenthal.com",
+      "subDomain": "grunenthal-promomats.veevavault.com",
       "apiVersion": "v22.3"
     }
   }
