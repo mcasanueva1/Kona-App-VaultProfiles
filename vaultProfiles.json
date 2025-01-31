@@ -708,7 +708,7 @@
       {
         "type": "presentation",
         "name": "pres.agency__c.name__v",
-        "token": "__agencyName__",
+        "value": "iDetailing Creatives Agency",
         "vaultField": "agency__c.name__v"
       },
       {
@@ -807,7 +807,7 @@
       {
         "type": "slide",
         "name": "slide.agency__c.name__v",
-        "token": "__agencyName__",
+        "value": "iDetailing Creatives Agency",
         "vaultField": "agency__c.name__v"
       },
       {
