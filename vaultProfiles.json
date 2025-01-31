@@ -754,21 +754,14 @@
       },
       {
         "type": "slide",
-        "name": "slide.language__v",
+        "name": "slide.language__c",
         "token": "__languageName__",
-        "vaultField": "language__v"
+        "vaultField": "language__c"
       },
       {
         "type": "slide",
         "name": "slide.clm_content__v",
         "value": "Yes",
-        "canBeGrouped": true,
-        "fixedValue": true
-      },
-      {
-        "type": "slide",
-        "name": "slide.engage_content__v",
-        "value": "No",
         "canBeGrouped": true,
         "fixedValue": true
       },
@@ -807,15 +800,21 @@
       },
       {
         "type": "slide",
-        "name": "slide.firewall__c.name__v",
-        "value": "No Restriction",
+        "name": "slide.regeneron_job__c",
+        "value": "fill in job number",
         "canBeGrouped": true
       },
       {
         "type": "slide",
-        "name": "slide.message_tagging_required__c",
-        "value": "No",
-        "fixedValue": true
+        "name": "slide.agency__c.name__v",
+        "token": "__agencyName__",
+        "vaultField": "agency__c.name__v"
+      },
+      {
+        "type": "slide",
+        "name": "slide.external_partner__c",
+        "value": "Sanofi",
+        "vaultField": "external_partner__c"
       }
     ],
     "metadata": {
