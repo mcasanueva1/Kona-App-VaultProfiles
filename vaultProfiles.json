@@ -684,7 +684,7 @@
       {
         "type": "presentation",
         "name": "pres.indication__c.name__v",
-        "token": "__indicationName__",
+        "token": "__indication__",
         "vaultField": "indication__c.name__v",
         "canBeGrouped": true
       },
