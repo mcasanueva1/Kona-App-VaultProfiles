@@ -634,6 +634,279 @@
     }
   },
   {
+    "name": "Regeneron",
+    "fields": [
+      {
+        "type": "common",
+        "name": "external_id__v",
+        "token": {
+          "forPresentation": "__presentationName__",
+          "forSlide": "__zipName__"
+        }
+      },
+      {
+        "type": "common",
+        "name": "Type",
+        "value": {
+          "forPresentation": "Presentation",
+          "forSlide": "Slide"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "lifecycle__v",
+        "value": {
+          "forPresentation": "Binder Lifecycle",
+          "forSlide": "CRM Content Lifecycle"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "name__v",
+        "token": {
+          "forPresentation": "{{presentationName}}",
+          "forSlide": "__zipNameWithoutExtension__"
+        }
+      },
+      {
+        "type": "presentation",
+        "name": "pres.title__v",
+        "token": "{{presentationName}}"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.indication__c.name__v",
+        "token": "__indicationName__",
+        "vaultField": "indication__c.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.language__c",
+        "token": "__languageName__",
+        "vaultField": "language__c"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.clm_content__v",
+        "value": "Yes",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.agency__c.name__v",
+        "token": "__agencyName__",
+        "vaultField": "agency__c.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.external_partner__c",
+        "value": "Sanofi",
+        "vaultField": "external_partner__c"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.regeneron_job__c",
+        "value": "fill in job number",
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "Presentation Link",
+        "token": "__presentationName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.filename",
+        "token": "__zipName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.title__v",
+        "token": "{{slideName}}"
+      },
+      {
+        "type": "slide",
+        "name": "slide.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.language__v",
+        "token": "__languageName__",
+        "vaultField": "language__v"
+      },
+      {
+        "type": "slide",
+        "name": "slide.clm_content__v",
+        "value": "Yes",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.engage_content__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_media_type__v",
+        "value": "HTML",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_disable_actions__v",
+        "token": "__disableActions__",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.ios_resolution__v",
+        "value": "Default For Device",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_shared_resource__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.related_shared_resource__v",
+        "token": "__sharedResourceZipName__",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.firewall__c.name__v",
+        "value": "No Restriction",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.message_tagging_required__c",
+        "value": "No",
+        "fixedValue": true
+      }
+    ],
+    "metadata": {
+      "products": [
+        {
+          "name": "Alprolix",
+          "value": "Alprolix"
+        },
+        {
+          "name": "Dupixent",
+          "value": "Dupixent"
+        },
+        {
+          "name": "Enjaymo",
+          "value": "Enjaymo"
+        },
+        {
+          "name": "Nexviadyme",
+          "value": "Nexviadyme"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Canada",
+          "value": "Canada"
+        },
+        {
+          "name": "France",
+          "value": "France"
+        },
+        {
+          "name": "Germany",
+          "value": "Germany"
+        },
+        {
+          "name": "Global",
+          "value": "Global",
+          "default": "true"
+        },
+        {
+          "name": "Israel",
+          "value": "Israel"
+        },
+        {
+          "name": "Italy",
+          "value": "Italy"
+        },
+        {
+          "name": "Japan",
+          "value": "Japan"
+        },
+        {
+          "name": "Korea",
+          "value": "Korea"
+        },
+        {
+          "name": "United States",
+          "value": "United States"
+        }
+      ],
+      "languages": [
+        {
+          "name": "English",
+          "value": "English",
+          "default": "true"
+        },        
+        {
+          "name": "French",
+          "value": "French"
+        },
+        {
+          "name": "German",
+          "value": "German"
+        },
+        {
+          "name": "Italian",
+          "value": "Italian"
+        },
+        {
+          "name": "Japanese",
+          "value": "Japanese"
+        }
+      ]
+    },
+    "credentials": {
+      "user": "F0026997@sanofi.com",
+      "subDomain": "sanofi-4mpromomats.veevavault.com",
+      "apiVersion": "v22.3"
+    }
+  },
+  {
     "name": "Sanofi",
     "fields": [
       {
