@@ -222,6 +222,10 @@
           "value": "Sanofi_BR_DupixentCRSwNP"
         },
         {
+          "name": "Sanofi_BR_DupixentCOPD",
+          "value": "Sanofi_BR_DupixentCOPD"
+        },
+        {
           "name": "Sanofi_CA_Alprolix",
           "value": "Sanofi_CA_Alprolix"
         },
