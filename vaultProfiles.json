@@ -1151,6 +1151,10 @@
       ],
       "countries": [
         {
+          "name": "Brazil",
+          "value": "Brazil"
+        },
+        {
           "name": "Canada",
           "value": "Canada"
         },
@@ -1213,6 +1217,10 @@
         {
           "name": "Japanese",
           "value": "Japanese"
+        },
+        {
+          "name": "Portuguese",
+          "value": "Portuguese (Portugal)"
         },
         {
           "name": "Spanish",
