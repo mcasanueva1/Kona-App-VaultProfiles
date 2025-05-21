@@ -332,7 +332,11 @@
         {
           "name": "NHS_UK_CompleatHP15",
           "value": "NHS_UK_CompleatHP15"
-        }
+        },
+        {
+          "name": "NHS_UK_CompleatFamily",
+          "value": "NHS_UK_CompleatFamily"
+        },
       ],
       "countries": [
         {
