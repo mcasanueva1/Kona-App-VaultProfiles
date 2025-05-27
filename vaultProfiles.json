@@ -336,6 +336,10 @@
         {
           "name": "NHS_UK_CompleatFamily",
           "value": "NHS_UK_CompleatFamily"
+        },
+        {
+          "name": "NHS_UK_Modulen",
+          "value": "NHS_UK_Modulen"
         }
       ],
       "countries": [
