@@ -599,6 +599,10 @@
         {
           "name": "Compleat",
           "value": "0CB000000000R02"
+        },
+        {
+          "name": "UK_Modulen",
+          "value": "0CB0000000AO001"
         }
       ],
       "detailGroups": [
@@ -606,6 +610,10 @@
           "name": "name for 0CG00000000Y002",
           "value": "0CG00000000Y002",
           "default": "true"
+        },
+        {
+          "name": "Allergy",
+          "value": "0CG000000000201"
         }
       ],
       "countries": [
