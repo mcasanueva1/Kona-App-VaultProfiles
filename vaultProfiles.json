@@ -712,9 +712,7 @@
       {
         "type": "presentation",
         "name": "pres.indication__c.name__v",
-        "token": "__indicationName__",
-        "vaultField": "indication__c.name__v",
-        "canBeGrouped": true
+        "value": "_fill-in-indication_"
       },
       {
         "type": "presentation",
@@ -730,15 +728,24 @@
       },
       {
         "type": "presentation",
+        "name": "pres.sponsor1__c.name__v",
+        "value": "_fill-in-sponsor-(can-be-blank)_"
+      },
+      {
+        "type": "presentation",
         "name": "pres.clm_content__v",
         "value": "Yes",
         "fixedValue": true
       },
       {
         "type": "presentation",
+        "name": "pres.regeneron_job__c",
+        "value": "_fill-in-job-number_"
+      },
+      {
+        "type": "presentation",
         "name": "pres.agency__c.name__v",
-        "value": "iDetailing Creatives Agency",
-        "vaultField": "agency__c.name__v"
+        "value": "iDetailing Creatives Agency"
       },
       {
         "type": "presentation",
@@ -748,9 +755,13 @@
       },
       {
         "type": "presentation",
-        "name": "pres.regeneron_job__c",
-        "value": "fill in job number",
-        "fixedValue": true
+        "name": "pres.external_document_number__c",
+        "value": "_fill-in-external-document-number-(can-be-blank)_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.slide.crm_keyword__v.name__v",
+        "value": "_fill-in-CRM-Searchable-Keywords_"
       },
       {
         "type": "slide",
@@ -777,9 +788,7 @@
       {
         "type": "slide",
         "name": "slide.indication__c.name__v",
-        "token": "__indicationName__",
-        "vaultField": "indication__c.name__v",
-        "canBeGrouped": true
+        "value": "_fill-in-indication_"
       },
       {
         "type": "slide",
@@ -793,6 +802,11 @@
         "name": "slide.language__c",
         "token": "__languageName__",
         "vaultField": "language__c"
+      },
+      {
+        "type": "slide",
+        "name": "slide.sponsor1__c.name__v",
+        "value": "_fill-in-sponsor-(can-be-blank)_"
       },
       {
         "type": "slide",
@@ -836,25 +850,28 @@
       },
       {
         "type": "slide",
-        "name": "slide.indication__c",
-        "value": "_fill-in-indication_"
-      },
-      {
-        "type": "slide",
         "name": "slide.regeneron_job__c",
         "value": "_fill-in-job-number_"
       },
       {
         "type": "slide",
         "name": "slide.agency__c.name__v",
-        "value": "iDetailing Creatives Agency",
-        "vaultField": "agency__c.name__v"
+        "value": "iDetailing Creatives Agency"
       },
       {
         "type": "slide",
         "name": "slide.external_partner__c",
-        "value": "Sanofi",
-        "vaultField": "external_partner__c"
+        "value": "Sanofi"
+      },
+      {
+        "type": "slide",
+        "name": "slide.external_document_number__c",
+        "value": "_fill-in-external-document-number-(can-be-blank)_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.slide.crm_keyword__v.name__v",
+        "value": "_fill-in-CRM-Searchable-Keywords_"
       }
     ],
     "metadata": {
