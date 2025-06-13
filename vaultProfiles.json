@@ -837,12 +837,12 @@
       {
         "type": "slide",
         "name": "slide.indication__c",
-        "value": "fill in indication"
+        "value": "_fill-in-indication_"
       },
       {
         "type": "slide",
         "name": "slide.regeneron_job__c",
-        "value": "fill in job number"
+        "value": "_fill-in-job-number_"
       },
       {
         "type": "slide",
