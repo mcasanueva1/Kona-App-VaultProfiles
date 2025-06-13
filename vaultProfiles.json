@@ -837,14 +837,12 @@
       {
         "type": "slide",
         "name": "slide.indication__c",
-        "token": "__indication__",
-        "vaultField": "indication__c"
+        "value": "fill in indication"
       },
       {
         "type": "slide",
         "name": "slide.regeneron_job__c",
-        "value": "fill in job number",
-        "canBeGrouped": true
+        "value": "fill in job number"
       },
       {
         "type": "slide",
