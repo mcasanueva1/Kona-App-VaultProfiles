@@ -764,6 +764,26 @@
         "value": "_fill-in-CRM-Searchable-Keywords_"
       },
       {
+        "type": "presentation",
+        "name": "pres.group_to_share_with__c.name__v",
+        "value": "_fill-in-Group-To-Share-With_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.field_force__c.name__v",
+        "value": "_fill-in-Field-Force_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.latest_approval_date__c",
+        "value": "_fill-in-Latest-Approval-Date-M/D/YYYY_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.original_approval_date__c",
+        "value": "_fill-in-Original-Approval-Date-M/D/YYYY_"
+      },
+      {
         "type": "slide",
         "name": "Presentation Link",
         "token": "__presentationName__"
@@ -872,6 +892,26 @@
         "type": "slide",
         "name": "slide.slide.crm_keyword__v.name__v",
         "value": "_fill-in-CRM-Searchable-Keywords_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.group_to_share_with__c.name__v",
+        "value": "_fill-in-Group-To-Share-With_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.field_force__c.name__v",
+        "value": "_fill-in-Field-Force_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.latest_approval_date__c",
+        "value": "_fill-in-Latest-Approval-Date-M/D/YYYY_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.original_approval_date__c",
+        "value": "_fill-in-Original-Approval-Date-M/D/YYYY_"
       }
     ],
     "metadata": {
