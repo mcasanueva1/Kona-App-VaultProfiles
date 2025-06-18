@@ -1108,11 +1108,6 @@
         "value": "_fill-in-CRM-ORG_"
       },
       {
-        "type": "presentation",
-        "name": "pres.crm_country__c.name__v",
-        "value": "_fill-in-CRM-Country_"
-      },
-      {
         "type": "slide",
         "name": "Presentation Link",
         "token": "__presentationName__"
@@ -1216,11 +1211,6 @@
         "name": "slide.expiration_date__c",
         "value": "_fill-in-Expiration-Date-dd MMM yyyy_"
       },
-      {
-        "type": "slide",
-        "name": "slide.crm_country__c.name__v",
-        "value": "_fill-in-CRM-Country_"
-      }
     ],
     "metadata": {
       "products": [
