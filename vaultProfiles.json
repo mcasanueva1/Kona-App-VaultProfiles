@@ -1093,6 +1093,26 @@
         "fixedValue": true
       },
       {
+        "type": "presentation",
+        "name": "pres.disease__c.name__v",
+        "value": "_fill-in-Disease_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.expiration_date__c",
+        "value": "_fill-in-Expiration-Date-dd MMM yyyy_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_org__v.name__v",
+        "value": "_fill-in-CRM-ORG_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_country__c.name__v",
+        "value": "_fill-in-CRM-Country_"
+      },
+      {
         "type": "slide",
         "name": "Presentation Link",
         "token": "__presentationName__"
@@ -1185,6 +1205,21 @@
         "name": "slide.message_tagging_required__c",
         "value": "No",
         "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.disease__c.name__v",
+        "value": "_fill-in-Disease_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.expiration_date__c",
+        "value": "_fill-in-Expiration-Date-dd MMM yyyy_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_country__c.name__v",
+        "value": "_fill-in-CRM-Country_"
       }
     ],
     "metadata": {
