@@ -1210,7 +1210,7 @@
         "type": "slide",
         "name": "slide.expiration_date__c",
         "value": "_fill-in-Expiration-Date-dd MMM yyyy_"
-      },
+      }
     ],
     "metadata": {
       "products": [
