@@ -760,7 +760,7 @@
       },
       {
         "type": "presentation",
-        "name": "pres.slide.crm_keyword__v.name__v",
+        "name": "pres.crm_keyword__v.name__v",
         "value": "_fill-in-CRM-Searchable-Keywords_"
       },
       {
@@ -890,7 +890,7 @@
       },
       {
         "type": "slide",
-        "name": "slide.slide.crm_keyword__v.name__v",
+        "name": "slide.crm_keyword__v.name__v",
         "value": "_fill-in-CRM-Searchable-Keywords_"
       },
       {
