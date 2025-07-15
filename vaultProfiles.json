@@ -1100,12 +1100,17 @@
       {
         "type": "presentation",
         "name": "pres.expiration_date__c",
-        "value": "_fill-in-Expiration-Date-dd MMM yyyy_"
+        "value": "_fill-in-Expiration-Date-MM/DD/YYYY_"
       },
       {
         "type": "presentation",
-        "name": "pres.crm_org__v.name__v",
-        "value": "_fill-in-CRM-ORG_"
+        "name": "pres.crm_org__v.crm_org_id__v",
+        "value": "_fill-in-CRM-ORGs-Codes-(00DHs000003TnDsMAK,00DQL00000AaVty2AF,00D7x000007CgqfEAC)_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_country__c.name__v",
+        "value": "_fill-in-CRM-Country_"
       },
       {
         "type": "slide",
@@ -1209,8 +1214,18 @@
       {
         "type": "slide",
         "name": "slide.expiration_date__c",
-        "value": "_fill-in-Expiration-Date-dd MMM yyyy_"
-      }
+        "value": "_fill-in-Expiration-Date-MM/DD/YYYY_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_org__v.crm_org_id__v",
+        "value": "_fill-in-CRM-ORGs-Codes-(00DHs000003TnDsMAK,00DQL00000AaVty2AF,00D7x000007CgqfEAC)_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_country__c.name__v",
+        "value": "_fill-in-CRM-Country_"
+      },
     ],
     "metadata": {
       "products": [
