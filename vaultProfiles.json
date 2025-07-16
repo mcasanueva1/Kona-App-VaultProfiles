@@ -1113,6 +1113,11 @@
         "value": "_fill-in-CRM-Country_"
       },
       {
+        "type": "presentation",
+        "name": "pres.crm_product_group__v.global_id__sys",
+        "value": "_fill-in-CRM-Product-Group-Code-after-46560_(46560_0CH0000000EJ129)_"
+      },
+      {
         "type": "slide",
         "name": "Presentation Link",
         "token": "__presentationName__"
@@ -1225,6 +1230,11 @@
         "type": "slide",
         "name": "slide.crm_country__c.name__v",
         "value": "_fill-in-CRM-Country_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_product_group__v.global_id__sys",
+        "value": "_fill-in-CRM-Product-Group-Code-after-46560_(46560_0CH0000000EJ129)_"
       }
     ],
     "metadata": {
