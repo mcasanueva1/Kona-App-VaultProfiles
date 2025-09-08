@@ -340,6 +340,10 @@
         {
           "name": "NHS_UK_Modulen",
           "value": "NHS_UK_Modulen"
+        },
+        {
+          "name": "Sanofi_UK_DupixentCOPD",
+          "value": "Sanofi_UK_DupixentCOPD"
         }
       ],
       "countries": [
