@@ -720,9 +720,7 @@
       {
         "type": "presentation",
         "name": "pres.indication__c.name__v",
-        "token": "__indicationName__",
-        "vaultField": "indication__c.name__v",
-        "canBeGrouped": true
+        "value": "_fill-in-indication_"
       },
       {
         "type": "presentation",
@@ -738,15 +736,24 @@
       },
       {
         "type": "presentation",
+        "name": "pres.sponsor1__c.name__v",
+        "value": "_fill-in-sponsor-(can-be-blank)_"
+      },
+      {
+        "type": "presentation",
         "name": "pres.clm_content__v",
         "value": "Yes",
         "fixedValue": true
       },
       {
         "type": "presentation",
+        "name": "pres.regeneron_job__c",
+        "value": "_fill-in-job-number_"
+      },
+      {
+        "type": "presentation",
         "name": "pres.agency__c.name__v",
-        "value": "iDetailing Creatives Agency",
-        "vaultField": "agency__c.name__v"
+        "value": "iDetailing Creatives Agency"
       },
       {
         "type": "presentation",
@@ -756,9 +763,33 @@
       },
       {
         "type": "presentation",
-        "name": "pres.regeneron_job__c",
-        "value": "fill in job number",
-        "fixedValue": true
+        "name": "pres.external_document_number__c",
+        "value": "_fill-in-external-document-number-(can-be-blank)_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_keyword__v.name__v",
+        "value": "_fill-in-CRM-Searchable-Keywords_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.group_to_share_with__c.name__v",
+        "value": "_fill-in-Group-To-Share-With_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.field_force__c.name__v",
+        "value": "_fill-in-Field-Force_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.latest_approval_date__c",
+        "value": "_fill-in-Latest-Approval-Date-M/D/YYYY_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.original_approval_date__c",
+        "value": "_fill-in-Original-Approval-Date-M/D/YYYY_"
       },
       {
         "type": "slide",
@@ -785,9 +816,7 @@
       {
         "type": "slide",
         "name": "slide.indication__c.name__v",
-        "token": "__indicationName__",
-        "vaultField": "indication__c.name__v",
-        "canBeGrouped": true
+        "value": "_fill-in-indication_"
       },
       {
         "type": "slide",
@@ -801,6 +830,11 @@
         "name": "slide.language__c",
         "token": "__languageName__",
         "vaultField": "language__c"
+      },
+      {
+        "type": "slide",
+        "name": "slide.sponsor1__c.name__v",
+        "value": "_fill-in-sponsor-(can-be-blank)_"
       },
       {
         "type": "slide",
@@ -845,20 +879,47 @@
       {
         "type": "slide",
         "name": "slide.regeneron_job__c",
-        "value": "fill in job number",
-        "canBeGrouped": true
+        "value": "_fill-in-job-number_"
       },
       {
         "type": "slide",
         "name": "slide.agency__c.name__v",
-        "value": "iDetailing Creatives Agency",
-        "vaultField": "agency__c.name__v"
+        "value": "iDetailing Creatives Agency"
       },
       {
         "type": "slide",
         "name": "slide.external_partner__c",
-        "value": "Sanofi",
-        "vaultField": "external_partner__c"
+        "value": "Sanofi"
+      },
+      {
+        "type": "slide",
+        "name": "slide.external_document_number__c",
+        "value": "_fill-in-external-document-number-(can-be-blank)_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_keyword__v.name__v",
+        "value": "_fill-in-CRM-Searchable-Keywords_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.group_to_share_with__c.name__v",
+        "value": "_fill-in-Group-To-Share-With_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.field_force__c.name__v",
+        "value": "_fill-in-Field-Force_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.latest_approval_date__c",
+        "value": "_fill-in-Latest-Approval-Date-M/D/YYYY_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.original_approval_date__c",
+        "value": "_fill-in-Original-Approval-Date-M/D/YYYY_"
       }
     ],
     "metadata": {
@@ -1040,6 +1101,31 @@
         "fixedValue": true
       },
       {
+        "type": "presentation",
+        "name": "pres.disease__c.name__v",
+        "value": "_fill-in-Disease_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.expiration_date__c",
+        "value": "_fill-in-Expiration-Date-MM/DD/YYYY_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_org__v.crm_org_id__v",
+        "value": "_fill-in-CRM-ORGs-Codes-(00DHs000003TnDsMAK)_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_country__c.name__v",
+        "value": "_fill-in-CRM-Country_"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.crm_product_group__v.global_id__sys",
+        "value": "_fill-in-CRM-Product-Group-Code-after-46560_(46560_0CH0000000EJ129)_"
+      },
+      {
         "type": "slide",
         "name": "Presentation Link",
         "token": "__presentationName__"
@@ -1132,6 +1218,31 @@
         "name": "slide.message_tagging_required__c",
         "value": "No",
         "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.disease__c.name__v",
+        "value": "_fill-in-Disease_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.expiration_date__c",
+        "value": "_fill-in-Expiration-Date-MM/DD/YYYY_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_org__v.crm_org_id__v",
+        "value": "_fill-in-CRM-ORGs-Codes-(00DHs000003TnDsMAK)_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_country__c.name__v",
+        "value": "_fill-in-CRM-Country_"
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_product_group__v.global_id__sys",
+        "value": "_fill-in-CRM-Product-Group-Code-after-46560_(46560_0CH0000000EJ129)_"
       }
     ],
     "metadata": {
