@@ -1,7 +1,6 @@
 [
   {
     "name": "iDC",
-    "allowDevCompile": true,
     "fields": [
       {
         "type": "common",
