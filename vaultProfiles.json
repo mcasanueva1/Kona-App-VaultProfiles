@@ -286,6 +286,10 @@
           "value": "Sanofi_GLB_SarclisaSC"
         },
         {
+          "name": "Sanofi_GLB_DupixentEoE",
+          "value": "Sanofi_GLB_DupixentEoE"
+        },
+        {
           "name": "Sanofi_GG_DupixentCOPD",
           "value": "Sanofi_GG_DupixentCOPD"
         },
