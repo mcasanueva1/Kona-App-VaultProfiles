@@ -342,6 +342,10 @@
           "value": "Sanofi_IT_DupixentCRSwNP"
         },
         {
+          "name": "RGN_US_EYLEA",
+          "value": "RGN_US_EYLEA"
+        },
+        {
           "name": "NHS_AU_CompleatFamily",
           "value": "NHS_AU_CompleatFamily"
         },
