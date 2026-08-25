@@ -380,6 +380,417 @@
       "apiVersion": "v22.3"
     }
   },
+    {
+    "name": "iDC Vault CRM",
+    "fields": [
+      {
+        "type": "common",
+        "name": "external_id__v",
+        "token": {
+          "forPresentation": "__presentationName__",
+          "forSlide": "__zipName__"
+        }
+      },
+      {
+        "type": "common",
+        "name": "Type",
+        "value": {
+          "forPresentation": "Presentation",
+          "forSlide": "Slide"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "lifecycle__v",
+        "value": {
+          "forPresentation": "Binder Lifecycle",
+          "forSlide": "CRM Content Lifecycle"
+        },
+        "canBeGrouped": true
+      },
+      {
+        "type": "common",
+        "name": "name__v",
+        "token": {
+          "forPresentation": "{{presentationName}}",
+          "forSlide": "__zipNameWithoutExtension__"
+        }
+      },
+      {
+        "type": "presentation",
+        "name": "pres.title__v",
+        "token": "{{presentationName}}"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v"
+      },
+      {
+        "type": "presentation",
+        "name": "pres.clm_content__v",
+        "value": "Yes",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.engage_content__v",
+        "value": "No",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.detail_group__v",
+        "value": "Common",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.field_use__v",
+        "value": "Yes",
+        "fixedValue": true
+      },
+      {
+        "type": "presentation",
+        "name": "pres.language__v",
+        "value": "English",
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "Presentation Link",
+        "token": "__presentationName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.filename",
+        "token": "__zipName__"
+      },
+      {
+        "type": "slide",
+        "name": "slide.title__v",
+        "token": "{{slideName}}"
+      },
+      {
+        "type": "slide",
+        "name": "slide.product__v.name__v",
+        "token": "__productName__",
+        "vaultField": "product__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.country__v.name__v",
+        "token": "__countryName__",
+        "vaultField": "country__v.name__v",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.clm_content__v",
+        "value": "Yes",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.engage_content__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_media_type__v",
+        "value": "HTML",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_disable_actions__v",
+        "token": "__disableActions__",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.ios_resolution__v",
+        "value": "Default For Device",
+        "canBeGrouped": true
+      },
+      {
+        "type": "slide",
+        "name": "pres.detail_group__v",
+        "value": "Common",
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "pres.language__v",
+        "value": "English",
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.crm_shared_resource__v",
+        "value": "No",
+        "canBeGrouped": true,
+        "fixedValue": true
+      },
+      {
+        "type": "slide",
+        "name": "slide.related_shared_resource__v",
+        "token": "__sharedResourceZipName__",
+        "canBeGrouped": true,
+        "fixedValue": true
+      }
+    ],
+    "metadata": {
+      "products": [
+        {
+          "name": "Grunenthal_Latam_Adorlan",
+          "value": "Grunenthal_Latam_Adorlan"
+        },
+        {
+          "name": "Grunenthal_BR_Adorlan",
+          "value": "Grunenthal_BR_Adorlan"
+        },
+        {
+          "name": "Grunenthal_Latam_Palexis",
+          "value": "Grunenthal_Latam_Palexis"
+        },
+        {
+          "name": "Grunenthal_BR_Palexis",
+          "value": "Grunenthal_BR_Palexis"
+        },
+        {
+          "name": "Grunenthal_CAM_Palexis",
+          "value": "Grunenthal_CAM_Palexis"
+        },
+        {
+          "name": "Grunenthal_CL_Palexis",
+          "value": "Grunenthal_CL_Palexis"
+        },
+        {
+          "name": "Grunenthal_PE_Palexis",
+          "value": "Grunenthal_PE_Palexis"
+        },
+        {
+          "name": "Grunenthal_MX_Palexis",
+          "value": "Grunenthal_MX_Palexis"
+        },
+        {
+          "name": "Grunenthal_Latam_Versatis",
+          "value": "Grunenthal_Latam_Versatis"
+        },
+        {
+          "name": "Grunenthal_BR_Versatis",
+          "value": "Grunenthal_BR_Versatis"
+        },
+        {
+          "name": "Grunenthal_CAM_Versatis",
+          "value": "Grunenthal_CAM_Versatis"
+        },
+        {
+          "name": "Grunenthal_CL_Versatis",
+          "value": "Grunenthal_CL_Versatis"
+        },
+        {
+          "name": "Grunenthal_EC_Versatis",
+          "value": "Grunenthal_EC_Versatis"
+        },
+        {
+          "name": "Grunenthal_MX_Versatis",
+          "value": "Grunenthal_MX_Versatis"
+        },
+        {
+          "name": "Grunenthal_PE_Versatis",
+          "value": "Grunenthal_PE_Versatis"
+        },
+        {
+          "name": "iDC_Kona",
+          "value": "iDC_Kona",
+          "default": "true"
+        },
+        {
+          "name": "iDC_Sales",
+          "value": "iDC_Sales"
+        },
+        {
+          "name": "iDC_EndurantJunior",
+          "value": "iDC_EndurantJunior"
+        },
+        {
+          "name": "NHS_CA_PeptamenAF1.2",
+          "value": "NHS_CA_PeptamenAF1.2"
+        },
+        {
+          "name": "Sanofi_BR_DupixentCRSwNP",
+          "value": "Sanofi_BR_DupixentCRSwNP"
+        },
+        {
+          "name": "Sanofi_BR_DupixentCOPD",
+          "value": "Sanofi_BR_DupixentCOPD"
+        },
+        {
+          "name": "Sanofi_CA_Alprolix",
+          "value": "Sanofi_CA_Alprolix"
+        },
+        {
+          "name": "Sanofi_DE_Enjaymo",
+          "value": "Sanofi_DE_Enjaymo"
+        },
+        {
+          "name": "Sanofi_DE_DupixentCRSwNP",
+          "value": "Sanofi_DE_DupixentCRSwNP"
+        },
+        {
+          "name": "Sanofi_FR_DupixentAsthma",
+          "value": "Sanofi_FR_DupixentAsthma"
+        },
+        {
+          "name": "Sanofi_GLB_Alprolix",
+          "value": "Sanofi_GLB_Alprolix"
+        },
+        {
+          "name": "Sanofi_GLB_DupixentAsthma",
+          "value": "Sanofi_GLB_DupixentAsthma"
+        },
+        {
+          "name": "Sanofi_GLB_DupixentCRSwNP",
+          "value": "Sanofi_GLB_DupixentCRSwNP"
+        },
+        {
+          "name": "Sanofi_GLB_DupixentCOPD",
+          "value": "Sanofi_GLB_DupixentCOPD"
+        },
+        {
+          "name": "Sanofi_GLB_Enjaymo",
+          "value": "Sanofi_GLB_Enjaymo"
+        },
+        {
+          "name": "Sanofi_GLB_Nexviadyme",
+          "value": "Sanofi_GLB_Nexviadyme"
+        },
+        {
+          "name": "Sanofi_GLB_Nexviazyme",
+          "value": "Sanofi_GLB_Nexviazyme"
+        },
+        {
+          "name": "Sanofi_GLB_Xenpozyme",
+          "value": "Sanofi_GLB_Xenpozyme"
+        },
+        {
+          "name": "Sanofi_GLB_Sarclisa",
+          "value": "Sanofi_GLB_Sarclisa"
+        },
+        {
+          "name": "Sanofi_GLB_SarclisaSC",
+          "value": "Sanofi_GLB_SarclisaSC"
+        },
+        {
+          "name": "Sanofi_GLB_DupixentEoE",
+          "value": "Sanofi_GLB_DupixentEoE"
+        },
+        {
+          "name": "Sanofi_GG_DupixentCOPD",
+          "value": "Sanofi_GG_DupixentCOPD"
+        },
+        {
+          "name": "Sanofi_GG-MCO_DupixentCRSwNP",
+          "value": "Sanofi_GG-MCO_DupixentCRSwNP"
+        },
+        {
+          "name": "Sanofi_IL_Enjaymo",
+          "value": "Sanofi_IL_Enjaymo"
+        },
+        {
+          "name": "Sanofi_JP_DupixentAD-NP",
+          "value": "Sanofi_JP_DupixentAD-NP"
+        },
+        {
+          "name": "Sanofi_JP_DupixentCRSwNP",
+          "value": "Sanofi_JP_DupixentCRSwNP"
+        },
+        {
+          "name": "Sanofi_KR_Alprolix",
+          "value": "Sanofi_KR_Alprolix"
+        },
+        {
+          "name": "Sanofi_US_DupixentEoE",
+          "value": "Sanofi_US_DupixentEoE"
+        },
+        {
+          "name": "Sanofi_US_DupixentAD-PN-Derm",
+          "value": "Sanofi_US_DupixentAD-PN-Derm"
+        },
+        {
+          "name": "Sanofi_US_DupixentCRSwNP",
+          "value": "Sanofi_US_DupixentCRSwNP"
+        },
+        {
+          "name": "Sanofi_US_DupixentAllergy",
+          "value": "Sanofi_US_DupixentAllergy"
+        },
+        {
+          "name": "Sanofi_US_DupixentAsthma",
+          "value": "Sanofi_US_DupixentAsthma"
+        },
+        {
+          "name": "Sanofi_DE_DupixentCOPD",
+          "value": "Sanofi_DE_DupixentCOPD"
+        },
+        {
+          "name": "Sanofi_IT_DupixentCRSwNP",
+          "value": "Sanofi_IT_DupixentCRSwNP"
+        },
+        {
+          "name": "RGN_US_EYLEA",
+          "value": "RGN_US_EYLEA"
+        },
+        {
+          "name": "NHS_AU_CompleatFamily",
+          "value": "NHS_AU_CompleatFamily"
+        },
+        {
+          "name": "NHS_UK_CompleatHP15",
+          "value": "NHS_UK_CompleatHP15"
+        },
+        {
+          "name": "NHS_UK_CompleatFamily",
+          "value": "NHS_UK_CompleatFamily"
+        },
+        {
+          "name": "NHS_UK_Modulen",
+          "value": "NHS_UK_Modulen"
+        },
+        {
+          "name": "Sanofi_UK_DupixentCOPD",
+          "value": "Sanofi_UK_DupixentCOPD"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Global",
+          "value": "Global",
+          "default": "true"
+        }
+      ]
+    },
+    "credentials": {
+      "user": "idc@vv-agency.com",
+      "subDomain": "vv-agency-idc.veevavault.com",
+      "apiVersion": "v22.3"
+    }
+  },
   {
     "name": "NHS",
     "fields": [
