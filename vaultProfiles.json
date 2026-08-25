@@ -528,13 +528,13 @@
       },
       {
         "type": "slide",
-        "name": "pres.detail_group__v",
+        "name": "slide.detail_group__v",
         "value": "Common",
         "fixedValue": true
       },
       {
         "type": "slide",
-        "name": "pres.language__v",
+        "name": "slide.language__v",
         "value": "English",
         "fixedValue": true
       },
