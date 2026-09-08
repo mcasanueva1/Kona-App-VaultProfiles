@@ -749,6 +749,10 @@
           "value": "Sanofi_DE_DupixentCOPD"
         },
         {
+          "name": "Sanofi_DE_EoE",
+          "value": "Sanofi_DE_EoE"
+        },
+        {
           "name": "Sanofi_IT_DupixentCRSwNP",
           "value": "Sanofi_IT_DupixentCRSwNP"
         },
