@@ -783,6 +783,10 @@
         {
           "name": "Sanofi_UK_DupixentCOPD",
           "value": "Sanofi_UK_DupixentCOPD"
+        },
+        {
+          "name": "BI_US_Jascayd",
+          "value": "BI_US_Jascayd"
         }
       ],
       "countries": [
