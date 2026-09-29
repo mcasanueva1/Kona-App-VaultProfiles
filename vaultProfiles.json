@@ -378,7 +378,8 @@
       "user": "idc@vv-agency.com",
       "subDomain": "vv-agency-idc.veevavault.com",
       "apiVersion": "v22.3"
-    }
+    },
+    "jsLibrary": "veeva-library.js"
   },
   {
     "name": "iDC_rel",
@@ -759,7 +760,8 @@
       "user": "idc@vv-agency.com",
       "subDomain": "vv-agency-idc.veevavault.com",
       "apiVersion": "v22.3"
-    }
+    },
+    "jsLibrary": "veeva-library.js"
   },
   {
     "name": "iDC-Vault-CRM",
@@ -1182,7 +1184,8 @@
       "user": "idc@vv-agency.com",
       "subDomain": "vv-agency-idc.veevavault.com",
       "apiVersion": "v22.3"
-    }
+    },
+    "jsLibrary": "vault-crm-library.js"
   },
   {
     "name": "NHS",
@@ -1495,7 +1498,8 @@
       "user": "fernando.garciaguerra@nestle.com",
       "subDomain": "nestle-mcr.veevavault.com",
       "apiVersion": "v22.3"
-    }
+    },
+    "jsLibrary": "veeva-library.js"
   },
   {
     "name": "Regeneron",
@@ -1842,7 +1846,8 @@
       "user": "fernando.garciaguerra@regeneron.com",
       "subDomain": "regeneron-mc.veevavault.com",
       "apiVersion": "v22.3"
-    }
+    },
+    "jsLibrary": "veeva-library.js"
   },
   {
     "name": "Sanofi",
@@ -2187,7 +2192,8 @@
       "user": "F0026997@sanofi.com",
       "subDomain": "sanofi-4mpromomats.veevavault.com",
       "apiVersion": "v22.3"
-    }
+    },
+    "jsLibrary": "veeva-library.js"
   },
   {
     "name": "Grunenthal",
@@ -2383,6 +2389,7 @@
       "user": "fernando.garciaguerra@grunenthal.com",
       "subDomain": "grunenthal-promomats.veevavault.com",
       "apiVersion": "v22.3"
-    }
+    },
+    "jsLibrary": "veeva-library.js"
   }
 ]
