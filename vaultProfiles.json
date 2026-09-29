@@ -379,7 +379,7 @@
       "subDomain": "vv-agency-idc.veevavault.com",
       "apiVersion": "v22.3"
     },
-    "jsLibrary": "veeva-library.js"
+    "jsLibrary": ["veeva-library.js"]
   },
   {
     "name": "iDC_rel",
@@ -761,7 +761,7 @@
       "subDomain": "vv-agency-idc.veevavault.com",
       "apiVersion": "v22.3"
     },
-    "jsLibrary": "veeva-library.js"
+    "jsLibrary": ["veeva-library.js"]
   },
   {
     "name": "iDC-Vault-CRM",
@@ -1185,7 +1185,7 @@
       "subDomain": "vv-agency-idc.veevavault.com",
       "apiVersion": "v22.3"
     },
-    "jsLibrary": "vault-crm-library.js"
+    "jsLibrary": ["vault-crm-library.js", "veeva-library.js"]
   },
   {
     "name": "NHS",
@@ -1499,7 +1499,7 @@
       "subDomain": "nestle-mcr.veevavault.com",
       "apiVersion": "v22.3"
     },
-    "jsLibrary": "veeva-library.js"
+    "jsLibrary": ["veeva-library.js"]
   },
   {
     "name": "Regeneron",
@@ -1847,7 +1847,7 @@
       "subDomain": "regeneron-mc.veevavault.com",
       "apiVersion": "v22.3"
     },
-    "jsLibrary": "veeva-library.js"
+    "jsLibrary": ["veeva-library.js"]
   },
   {
     "name": "Sanofi",
@@ -2193,7 +2193,7 @@
       "subDomain": "sanofi-4mpromomats.veevavault.com",
       "apiVersion": "v22.3"
     },
-    "jsLibrary": "veeva-library.js"
+    "jsLibrary": ["veeva-library.js"]
   },
   {
     "name": "Grunenthal",
@@ -2390,6 +2390,6 @@
       "subDomain": "grunenthal-promomats.veevavault.com",
       "apiVersion": "v22.3"
     },
-    "jsLibrary": "veeva-library.js"
+    "jsLibrary": ["veeva-library.js"]
   }
 ]
